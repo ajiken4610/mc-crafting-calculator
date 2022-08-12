@@ -1,0 +1,7 @@
+{
+  "ultimate_hybrid_solar": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [{ "id": "", "count": 1 }]
+  }
+}

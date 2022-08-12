@@ -8,6 +8,7 @@ specifiers:
   prettier: ^2.7.1
   pug: ^3.0.2
   sass: ^1.54.4
+  vue-select: 4.0.0-beta.3
 
 devDependencies:
   '@popperjs/core': 2.11.6
@@ -17,6 +18,7 @@ devDependencies:
   prettier: 2.7.1
   pug: 3.0.2
   sass: 1.54.4
+  vue-select: 4.0.0-beta.3
 
 packages:
 
@@ -5081,6 +5083,12 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.2.1
       vue: 3.2.37
+    dev: true
+
+  /vue-select/4.0.0-beta.3:
+    resolution: {integrity: sha512-sXufbTDluz26a39UUZE9jeh9Hojnn8zr9qDDUlVEBc7E0F+h3+Nzy8YzyFHuVNrrYLmK0zrPkb7hWFulAEW41Q==}
+    peerDependencies:
+      vue: 3.x
     dev: true
 
   /vue/3.2.37:
