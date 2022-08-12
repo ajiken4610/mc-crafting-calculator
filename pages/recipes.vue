@@ -7,13 +7,14 @@
       ul.dropdown-menu
         li.dropdown-item Overwrite
         li.dropdown-item Merge
-      button.btn.btn-primary Export
+      button.btn.btn-primary(@click="exportToClipboard") Export
   input.form-control(placeholder="Search...")
   button.btn.btn-outline-primary.w-100(@click="newRecipe") New
   div
     div(v-for="(recipe,key) in recipes" :key="key")
       .float-end.btn-close.m-2(@click="remove(key.toString())")
       PartsRecipeEditor(:id="key.toString()" :data="recipes")
+  button.btn.btn-outline-primary.w-100(@click="newRecipe") New
 </template>
 
 <script setup lang="ts">
@@ -26,6 +27,10 @@ const newRecipe = () => {
 };
 const remove = (id: string) => {
   recipes.value = removeRecipe(id, recipes.value);
+};
+const exportToClipboard = () => {
+  console.log(JSON.stringify(useRecipe().value));
+  navigator.clipboard.writeText(JSON.stringify(useRecipe().value));
 };
 </script>
 <style scoped lang="scss">

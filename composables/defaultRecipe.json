@@ -2,6 +2,130 @@
   "ultimate_hybrid_solar": {
     "count": 1,
     "method": "crafting",
-    "costs": [{ "id": "", "count": 1 }]
+    "costs": [
+      { "count": 1, "id": "high_voltage_solar" },
+      { "count": 1, "id": "hybrid_solar" },
+      { "count": 2, "id": "plasma_core" },
+      { "count": 1, "id": "coal_chunk" },
+      { "count": 2, "id": "enriched_sunnarium_alloy" }
+    ]
+  },
+  "high_voltage_solar": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 8, "id": "medium_voltage_solar" },
+      { "count": 1, "id": "iv_transformer" }
+    ]
+  },
+  "hybrid_solar": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 1, "id": "medium_voltage_solar" },
+      { "count": 2, "id": "carbon_plate" },
+      { "count": 2, "id": "iridium_plate" },
+      { "count": 1, "id": "advanced_solar" },
+      { "count": 2, "id": "advanced_circuit" },
+      { "count": 1, "id": "enriched_sunnarium" }
+    ]
+  },
+  "plasma_core": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 8, "id": "magnet" },
+      { "count": 16, "id": "advanced_alloy" },
+      { "count": 1, "id": "plasma_cell" }
+    ]
+  },
+  "coal_chunk": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 8, "id": "compressed_coal_ball" },
+      { "count": 1, "id": "obsidian" }
+    ]
+  },
+  "enriched_sunnarium_alloy": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 4, "id": "plasma_cell" },
+      { "count": 4, "id": "enriched_sunnarium" },
+      { "count": 1, "id": "sunnarium_alloy" }
+    ]
+  },
+  "medium_voltage_solar": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 8, "id": "low_voltage_solar" },
+      { "count": 1, "id": "mv_transformer" }
+    ]
+  },
+  "iv_transformer": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 4, "id": "iridium_stone" },
+      { "count": 2, "id": "plasma_cable" },
+      { "count": 1, "id": "advanced_circuit" },
+      { "count": 1, "id": "ev_transformer" },
+      { "count": 1, "id": "pesd" }
+    ]
+  },
+  "carbon_plate": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [{ "count": 1, "id": "raw_carbon_mesh" }]
+  },
+  "iridium_plate": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 4, "id": "iridium_ore" },
+      { "count": 4, "id": "advanced_alloy" },
+      { "count": 1, "id": "diamond" }
+    ]
+  },
+  "advanced_solar": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 3, "id": "irradiant_glass_pane" },
+      { "count": 2, "id": "advanced_alloy" },
+      { "count": 1, "id": "low_voltage_solar" },
+      { "count": 2, "id": "advanced_circuit" },
+      { "count": 1, "id": "irradiant_reinforced_plate" }
+    ]
+  },
+  "advanced_circuit": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 4, "id": "redstone" },
+      { "count": 2, "id": "glowstone_dust" },
+      { "count": 2, "id": "lapis_lazuli" },
+      { "count": 1, "id": "circuit" }
+    ]
+  },
+  "enriched_sunnarium": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [
+      { "count": 8, "id": "irradiant_uranium" },
+      { "count": 1, "id": "sunnarium" }
+    ]
+  },
+  "magnet": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [{ "count": 1, "id": "dead_magnet" }]
+  },
+  "advanced_alloy": {
+    "count": 1,
+    "method": "crafting",
+    "costs": [{ "count": 1, "id": "mixed_metal_ingot" }]
   }
 }
